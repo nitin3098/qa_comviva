@@ -1,0 +1,79 @@
+DEFECT -NITIN KUMAR
+
+
+Defect ID: PAYMENT-001
+Descriptive Defect Name: "Make Payment" Functionality Not Working
+Defect Type: Functional
+Defect Severity: High
+Defect Priority: Critical
+Defect Status: Open
+
+Detailed Defect Description with Steps:
+
+    Description:
+    The "Make Payment" functionality is not working as intended, preventing users from successfully completing transactions.
+
+    Steps to Reproduce:
+    a. Log in to the system with valid credentials.
+    b. Navigate to the "Payment" section or page.
+    c. Select a payment method (credit card, PayPal, etc.).
+    d. Enter the required payment details (card number, expiration date, CVV, etc.).
+    e. Click on the "Make Payment" button.
+
+    Observed Behavior:
+    	Upon clicking the "Submit" or "Make Payment" button, the system does not process the payment and 	instead displays an error message or simply does not respond.
+
+    Expected Behavior:
+        The system should process the payment successfully, redirecting the user to a confirmation page and          	updating the payment status accordingly.
+
+    Additional Information:
+        Confirm that all entered payment information is valid.
+        Check for any error messages or notifications that might provide insight into the issue.
+        Test the same scenario with different browsers to rule out browser-specific issues.
+
+    Attachments:
+      	If applicable, attach screenshots or videos demonstrating the issue.
+
+    Environment Details:
+        Operating System: [Specify OS]
+        Browser (if applicable): [Specify Browser and Version]
+        Application Version: [Specify Application Version]
+-----------------------------------------------------------------------------------------------------------
+example--Defect Severity: Medium
+
+Defect ID: SETTING-001
+Descriptive Defect Name: "Setting" Button Not Working
+Defect Type: Functional
+Defect Severity: Medium
+Defect Priority: High
+Defect Status: Open
+
+Detailed Defect Description with Steps:
+
+    Description:
+    	The "Setting" button is not functioning properly, preventing users from accessing and modifying their 	account settings.
+
+    Steps to Reproduce:
+    	a. Log in to the application with valid credentials.
+    	b. Navigate to the user account or profile section.
+    c. Locate and click on the "Setting" button.
+
+    Observed Behavior:
+    	Clicking on the "Setting" button does not open the settings page or menu. The application either 	remains on the current page, or there is no response.
+
+    Expected Behavior:
+    	The "Setting" button should open a settings page or menu where users can modify their account 	preferences, privacy settings, or other relevant options.
+
+    Additional Information:
+        Ensure that the user has the necessary permissions to access and modify settings.
+        Check for any error messages or console logs related to the failure of the "Setting" button.
+        Test the same scenario with different user accounts to rule out account-specific issues.
+
+    Attachments:
+    	If applicable, attach screenshots or videos demonstrating the issue.
+
+    Environment Details:
+        Operating System: [Specify OS]
+        Browser (if applicable): [Specify Browser and Version]
+        Application Version: [Specify Application Version]
+    
